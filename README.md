@@ -723,50 +723,6 @@ After your setup works, continue with these official and beginner-friendly resou
 
 ---
 
-## 11. Final Verification Checklist
-
-Before submitting your GitHub repository, confirm each item below.
-
-### Repository structure
-
-Your GitHub repository should look similar to:
-
-```text
-cit411-python-setup/
-├── README.md
-├── hello.py
-└── screenshots/
-    ├── windows-01-python-download-page.png
-    ├── windows-02-installer-add-to-path.png
-    ├── windows-03-install-success.png
-    ├── windows-04-powershell-python-version.png
-    ├── windows-05-venv-activated.png
-    ├── macos-01-python-download-page.png
-    ├── macos-02-installer-introduction.png
-    ├── macos-03-installer-destination.png
-    ├── macos-04-install-success.png
-    ├── macos-05-terminal-python-version.png
-    ├── macos-06-venv-activated.png
-    ├── vscode-01-download-page.png
-    ├── vscode-02-python-extension.png
-    ├── vscode-03-pylance-extension.png
-    ├── vscode-04-black-formatter-extension.png
-    ├── vscode-05-open-folder.png
-    ├── vscode-06-integrated-terminal.png
-    ├── vscode-07-create-venv.png
-    ├── vscode-08-select-interpreter-command.png
-    ├── vscode-09-selected-venv-interpreter.png
-    ├── vscode-10-create-hello-file.png
-    ├── vscode-11-hello-code.png
-    ├── vscode-12-hello-output.png
-    ├── vscode-13-settings-json.png
-    ├── errors-01-python-not-recognized.png
-    ├── errors-02-macos-python-command-not-found.png
-    ├── errors-03-execution-policy.png
-    ├── errors-04-wrong-interpreter.png
-    ├── errors-05-no-module-named.png
-    ├── errors-06-no-formatter.png
-    └── errors-07-venv-wrong-folder.png
 ```
 
 
