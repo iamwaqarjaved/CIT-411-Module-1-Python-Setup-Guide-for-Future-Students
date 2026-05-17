@@ -77,8 +77,6 @@ Avoid saving your first project inside OneDrive, iCloud Drive, Dropbox, or Googl
 3. Click the button for the latest Python 3 release.
 4. Download the **Windows installer (64-bit)**.
 
-![Windows Python download page](screenshots/windows-01-python-download-page.png)
-
 **Decision point:**  
 Use the official Python website, not a random download site. This reduces the risk of installing an outdated or unsafe package.
 
@@ -95,8 +93,6 @@ Add python.exe to PATH
 
 3. Click **Install Now**.
 
-![Windows Python installer with Add Python to PATH checked](screenshots/windows-02-installer-add-to-path.png)
-
 **Important:**  
 This is one of the most common places students make a mistake. If you do not check **Add python.exe to PATH**, Windows may not recognize the `python` command in PowerShell.
 
@@ -105,8 +101,6 @@ This is one of the most common places students make a mistake. If you do not che
 ### Step 3: Confirm installation completed
 
 When the installer finishes, click **Close**.
-
-![Windows Python successful installation screen](screenshots/windows-03-install-success.png)
 
 ---
 
@@ -137,8 +131,6 @@ You should see output similar to:
 pip 25.x from ... (python 3.x)
 ```
 
-![Windows PowerShell Python and pip version check](screenshots/windows-04-powershell-python-version.png)
-
 If this works, Python is installed correctly.
 
 ---
@@ -151,8 +143,6 @@ If this works, Python is installed correctly.
 2. Go to the official Python download page: <https://www.python.org/downloads/>
 3. Click the latest Python 3 release.
 4. Download the **macOS 64-bit universal2 installer** if it is available.
-
-![macOS Python download page](screenshots/macos-01-python-download-page.png)
 
 **Decision point:**  
 macOS may already include a system Python, but do not rely on it for class projects. Install the current Python 3 version from python.org.
@@ -167,12 +157,6 @@ macOS may already include a system Python, but do not rely on it for class proje
 4. Choose the default install location.
 5. Click **Install**.
 6. Enter your Mac password if prompted.
-
-![macOS Python installer introduction screen](screenshots/macos-02-installer-introduction.png)
-
-![macOS Python installer destination screen](screenshots/macos-03-installer-destination.png)
-
-![macOS Python installer success screen](screenshots/macos-04-install-success.png)
 
 ---
 
@@ -203,8 +187,6 @@ You should see:
 pip 25.x from ... (python 3.x)
 ```
 
-![macOS Terminal Python and pip version check](screenshots/macos-05-terminal-python-version.png)
-
 **Note:**  
 On macOS, the command is usually `python3`, not `python`.
 
@@ -218,7 +200,6 @@ On macOS, the command is usually `python3`, not `python`.
 2. Download VS Code for your operating system.
 3. Install it using the default options.
 
-![VS Code download page](screenshots/vscode-01-download-page.png)
 
 ---
 
@@ -233,8 +214,6 @@ Python
 ```
 
 4. Install the official **Python** extension from Microsoft.
-
-![VS Code Python extension](screenshots/vscode-02-python-extension.png)
 
 ---
 
@@ -264,7 +243,6 @@ Black Formatter
 
 2. Install the official **Black Formatter** extension from Microsoft.
 
-![VS Code Black Formatter extension](screenshots/vscode-04-black-formatter-extension.png)
 
 Black automatically formats Python code in a consistent style.
 
@@ -289,7 +267,6 @@ Documents/cit411-python-setup
 
 3. Click **Select Folder** or **Open**.
 
-![VS Code Open Folder screen](screenshots/vscode-05-open-folder.png)
 
 ---
 
@@ -304,8 +281,6 @@ In VS Code, open the terminal:
 ```text
 Terminal > New Terminal
 ```
-
-![VS Code integrated terminal](screenshots/vscode-06-integrated-terminal.png)
 
 ---
 
@@ -327,7 +302,6 @@ Run:
 python3 -m venv .venv
 ```
 
-![VS Code terminal after creating virtual environment](screenshots/vscode-07-create-venv.png)
 
 This creates a hidden folder named `.venv`.
 
@@ -349,8 +323,6 @@ If activation works, your terminal prompt should begin with:
 (.venv)
 ```
 
-![Windows venv activated in VS Code terminal](screenshots/windows-05-venv-activated.png)
-
 #### macOS Terminal
 
 Run:
@@ -364,8 +336,6 @@ If activation works, your terminal prompt should begin with:
 ```text
 (.venv)
 ```
-
-![macOS venv activated in VS Code terminal](screenshots/macos-06-venv-activated.png)
 
 ---
 
@@ -426,8 +396,6 @@ In your project folder, create a file named:
 hello.py
 ```
 
-![VS Code new hello.py file](screenshots/vscode-10-create-hello-file.png)
-
 ---
 
 ### Step 2: Add this code
@@ -451,8 +419,6 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
-
-![hello.py code in VS Code](screenshots/vscode-11-hello-code.png)
 
 ---
 
@@ -479,8 +445,6 @@ or:
 ```bash
 python3 hello.py
 ```
-
-![Successful Hello World output](screenshots/vscode-12-hello-output.png)
 
 Expected output should look similar to:
 
@@ -578,8 +542,6 @@ If you are on Windows and VS Code does not automatically find your `.venv`, use 
 python --version
 ```
 
-![Windows PATH error](screenshots/errors-01-python-not-recognized.png)
-
 ---
 
 ### Error 2: macOS says `python: command not found`
@@ -601,8 +563,6 @@ Use this command to create your virtual environment:
 ```bash
 python3 -m venv .venv
 ```
-
-![macOS python command not found](screenshots/errors-02-macos-python-command-not-found.png)
 
 ---
 
@@ -631,8 +591,6 @@ Then try again:
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
-
-![PowerShell execution policy error](screenshots/errors-03-execution-policy.png)
 
 ---
 
@@ -678,7 +636,6 @@ python -m pip install package-name
 
 Replace `package-name` with the package required by your assignment.
 
-![No module named error](screenshots/errors-05-no-module-named.png)
 
 ---
 
@@ -702,8 +659,6 @@ Replace `package-name` with the package required by your assignment.
 ```
 
 4. Save the file and restart VS Code.
-
-![VS Code formatter missing error](screenshots/errors-06-no-formatter.png)
 
 ---
 
@@ -740,8 +695,6 @@ Then activate:
 ```bash
 source .venv/bin/activate
 ```
-
-![Venv activation wrong folder](screenshots/errors-07-venv-wrong-folder.png)
 
 ---
 
@@ -816,34 +769,5 @@ cit411-python-setup/
     └── errors-07-venv-wrong-folder.png
 ```
 
-### Setup checklist
-
-- [ ] Python installs successfully on Windows.
-- [ ] Python installs successfully on macOS.
-- [ ] `python --version` works on Windows.
-- [ ] `python3 --version` works on macOS.
-- [ ] VS Code is installed.
-- [ ] Python extension is installed.
-- [ ] Pylance extension is installed.
-- [ ] Black Formatter extension is installed.
-- [ ] `.venv` is created.
-- [ ] `.venv` is activated.
-- [ ] VS Code uses the `.venv` interpreter.
-- [ ] `hello.py` runs successfully.
-- [ ] Screenshots are embedded in the Markdown file.
-- [ ] The GitHub repository includes both `README.md` and the `screenshots` folder.
-
----
-
-## Submission Notes
-
-For the final CIT 411 deliverable:
-
-1. Rename this file to `README.md`.
-2. Put it in the root of your GitHub repository.
-3. Add the `hello.py` file.
-4. Add all screenshots inside the `screenshots` folder.
-5. Open the repository on GitHub and confirm the screenshots display correctly.
-6. Submit the GitHub repository link.
 
 A student who follows this guide should be able to install Python, configure VS Code, activate a virtual environment, and run the verification script without needing extra help.
