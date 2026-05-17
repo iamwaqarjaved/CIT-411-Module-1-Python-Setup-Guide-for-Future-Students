@@ -4,9 +4,6 @@
 **Audience:** Future CIT 411 students with little or no command-line experience  
 **Goal:** Install Python, configure VS Code, create a virtual environment, and run a working “Hello World” script on Windows or macOS.
 
-> **Screenshot note for your GitHub submission:**  
-> This guide includes embedded screenshot references using `screenshots/...` paths. Before submitting, create a `screenshots` folder in your GitHub repository and replace each placeholder image with your own screenshot using the same file name. A stranger should be able to follow the guide without guessing what to click.
-
 ---
 
 ## Table of Contents
