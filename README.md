@@ -190,6 +190,7 @@ pip 25.x from ... (python 3.x)
 **Note:**  
 On macOS, the command is usually `python3`, not `python`.
 
+![Mac Python installer showing terminal commands](images/screenshot2.png)
 ---
 
 ## 5. Install and Configure VS Code
@@ -458,6 +459,8 @@ On macOS, the Python executable path will look different:
 ```
 
 If your output shows the `.venv` path, your setup is working end-to-end.
+
+![Mac Python installer showing terminal commands](images/screenshot1.png)
 
 ---
 
