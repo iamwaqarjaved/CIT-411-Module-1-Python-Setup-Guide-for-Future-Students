@@ -227,8 +227,6 @@ Pylance
 
 2. Install the official **Pylance** extension from Microsoft.
 
-![VS Code Pylance extension](screenshots/vscode-03-pylance-extension.png)
-
 Pylance gives better autocomplete, code analysis, and type-checking support.
 
 ---
@@ -377,9 +375,6 @@ It should look similar to:
 ./.venv/bin/python
 ```
 
-![VS Code select Python interpreter command](screenshots/vscode-08-select-interpreter-command.png)
-
-![VS Code selected .venv interpreter](screenshots/vscode-09-selected-venv-interpreter.png)
 
 **Decision point:**  
 Do not select the global Python interpreter if your `.venv` interpreter is available. For class projects, use the `.venv` interpreter.
@@ -608,8 +603,6 @@ Then try again:
 2. Search **Python: Select Interpreter**.
 3. Choose the interpreter inside `.venv`.
 4. Re-run `hello.py`.
-
-![Wrong interpreter selected](screenshots/errors-04-wrong-interpreter.png)
 
 ---
 
